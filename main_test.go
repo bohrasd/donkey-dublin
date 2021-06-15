@@ -6,7 +6,7 @@ import (
 )
 
 func TestHttp(t *testing.T) {
-	go main()
+	// go main()
 
 	tests := []struct {
 		req, resp string
